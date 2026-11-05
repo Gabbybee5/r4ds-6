@@ -73,8 +73,6 @@ hourly_avg <- dbplyr_act |>
     .by = c(sex, hour, major_name)
   ) |>
   collect()
-
-hourly_avg
 ```
 
 ```{r}
